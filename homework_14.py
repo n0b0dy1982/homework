@@ -1,9 +1,10 @@
-def is_even():
-    number = int(input("Введите число: "))
-    if number % 2 > 0:
-        print("Не чётное число")
-        if number % 2 < 0:
-            print("Не чётное число")
-    return number
-print(is_even())
+def is_even(num):
+    if num % 2 == 0:
+        print('Четное')
+        return num
+    else:
+        print('Нечетное')
+        return num
+print(is_even(35))
+
 
