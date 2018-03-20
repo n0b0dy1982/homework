@@ -1,10 +1,8 @@
 def is_even(num):
     if num % 2 == 0:
-        print('Четное')
-        return num
+        return True
     else:
-        print('Нечетное')
-        return num
-print(is_even(35))
+        return False
+print(is_even(36))
 
 
