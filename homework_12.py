@@ -1,11 +1,11 @@
-#1
+#1.
 def sum_of_digits():
     num = input('Enter number: ')
     sum = (int(num[:1]) + int(num[1:2]) + int(num[2:]))
     return sum
 print(sum_of_digits())
 
-#2
+#2.
 def sum_of_digits_1():
     num_1 = (input('Enter number: '))
     first_num = int(num_1) // 100
