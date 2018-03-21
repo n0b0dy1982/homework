@@ -7,9 +7,9 @@ def solve_quadratic_equation(a, b, c):
         return x1, x2
     if D == 0:
         x = - b / (2 * a)
-        return x
+        return x, None
     else:
-        print('None')
+        return None, None
 print(solve_quadratic_equation(1, 2, 1))
 
 
